@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .dashboard-container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+        }
+        .dashboard-title {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .dashboard-button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-align: center;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition: background-color 0.3s;
+        }
+        .dashboard-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1 class="dashboard-title">Admin Dashboard</h1>
+        <button class="dashboard-button" onclick="location.href='manage_products.php'">Manage Products</button>
+        <button class="dashboard-button" onclick="location.href='manage_orders.php'">Manage Orders</button>
+        <button class="dashboard-button" onclick="location.href='manage_customers.php'">Manage Customers</button>
+    </div>
+</body>
+</html>
